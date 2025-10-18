@@ -5,7 +5,7 @@ from classes_filhas_funcionario import *
 from classe_funcionario import *
 from exececoes_funcionario import *
 
-# OBSERVAÇÃO: AS EXECEÇÕES ESTAM COM ERROS, PARA QUE ASSIM VEJAMOS SE AS PRINCIPAIS EXECEÇÕES ESTÃO FUNICONANDO.
+# OBSERVAÇÃO: AS EXECEÇÕES SERAM TESTADAS  COM ERROS, PARA QUE ASSIM VEJAMOS SE AS PRINCIPAIS EXECEÇÕES ESTÃO FUNICONANDO.
 
 
 try:
@@ -45,4 +45,5 @@ except Exception as r:
 print('-'*20)
 teste3=Terceirizado('Julia','1234567',2000,'Valid',True)
 print(teste3.aumentar_salario(10))
+
 print(teste3.detalhar_funcionario())
